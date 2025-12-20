@@ -9,10 +9,10 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="max-w-4xl">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-medium text-neutral-900 mb-8 leading-tight tracking-tight">
-              Building long-term value through strategic investments
+              Building the Present. Investing in the Future.
             </h1>
             <p className="text-xl sm:text-2xl text-neutral-600 mb-12 leading-relaxed max-w-3xl">
-              Passang Holdings is an investment holding company focused on acquiring and managing quality businesses with strong fundamentals and growth potential.
+              A diversified holdings company operating across multiple industries with a focus on long-term value creation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -42,22 +42,14 @@ export default function Home() {
               </h2>
               <div className="space-y-4 text-base text-neutral-600 leading-relaxed">
                 <p>
-                  We take a disciplined, long-term approach to investing. Our focus is on acquiring businesses with sustainable competitive advantages and holding them for extended periods—typically 5+ years.
+                   Operating as a diversified holdings company, we build, operate, and scale businesses while strategically investing in private and public markets. By integrating direct business ownership with disciplined capital allocation,  this approach creates a balanced and resilient engine for growth, income generation, and long-term risk management across market cycles.
                 </p>
                 <p>
-                  This patient capital approach allows our portfolio companies to focus on building lasting value rather than short-term results.
                 </p>
               </div>
             </div>
-            <div>
-              <Image
-                src="/InfrontCongress.jpeg"
-                alt="Passang Holdings"
-                width={600}
-                height={750}
-                className="rounded-lg"
-              />
-            </div>
+           
+            
           </div>
         </div>
       </section>
@@ -71,16 +63,16 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: "Long-Term Focus",
-                description: "We invest with a 5+ year horizon, allowing businesses to compound value over time"
+                title: "Investing In The Future",
+                description: "Investing in the future is not just about our business model, but also about charting a sustainable path unique to us with innovation, adaptability, and strategic focus."
               },
               {
-                title: "Quality Over Quantity",
-                description: "A concentrated portfolio of exceptional businesses rather than broad diversification"
+                title: "Constant Innovation & Adaptability",
+                description: "Learning, growing, and innovation never stops. Through rigorous evaluation and business landscape analysis, we are always ahead of the broader market. This relentless practice allows us to be prepared for both good and bad times."
               },
               {
-                title: "Active Ownership",
-                description: "We work closely with management teams to drive sustainable growth"
+                title: "Community Oriented",
+                description: "Building great businesses is more than just about increasing the bottom line. It is about creating lasting value for our customers, clients, and business partners while uplifting underserved communities across the world."
               }
             ].map((principle, index) => (
               <div key={index} className="border-l-2 border-neutral-900 pl-6">

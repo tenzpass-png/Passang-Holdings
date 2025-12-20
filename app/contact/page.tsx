@@ -33,8 +33,27 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="text-base font-medium text-neutral-900 mb-1">Email</h3>
+                  <h3 className="text-base font-medium text-neutral-900 mb-1">For General Inquiries</h3>
                   <p className="text-sm text-neutral-600 break-all">infocenter@passangholdings.com</p>
+                </div>
+              </div>
+            </a>
+
+            <a
+              href="mailto:careers@passangholdings.com"
+              className="group block border border-neutral-200 rounded-lg p-6 hover:border-neutral-400 transition-colors"
+            >
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 bg-neutral-100 rounded-md flex items-center justify-center group-hover:bg-neutral-200 transition-colors shrink-0">
+                  <svg className="w-5 h-5 text-neutral-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15a3 3 0 100-6 3 3 0 000 6z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className="text-base font-medium text-neutral-900 mb-1">For Careers</h3>
+                  <p className="text-sm text-neutral-600 break-all">careers@passangholdings.com</p>
                 </div>
               </div>
             </a>

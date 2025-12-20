@@ -25,9 +25,6 @@ export default function Footer() {
               <Link href="/businesses" className="text-sm text-neutral-600 hover:text-neutral-900 transition-colors">
                 Our Businesses
               </Link>
-              <Link href="/investments" className="text-sm text-neutral-600 hover:text-neutral-900 transition-colors">
-                Investments
-              </Link>
               <Link href="/careers" className="text-sm text-neutral-600 hover:text-neutral-900 transition-colors">
                 Careers
               </Link>

@@ -5,10 +5,10 @@ export default function Community() {
         <div className="max-w-7xl mx-auto">
           <div className="max-w-4xl">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-medium text-neutral-900 mb-8 leading-tight tracking-tight">
-              Community & Philanthropy
+              Community Impact
             </h1>
             <p className="text-xl sm:text-2xl text-neutral-600 leading-relaxed">
-              Supporting organizations that create positive change in our communities.
+              We are committed to expanding opportunities in underserved communities across the globe. We do so by partnering with local organizations that demonstrate a tangible positive impact in the field of education and regional economic development.
             </p>
           </div>
         </div>

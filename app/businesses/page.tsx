@@ -8,7 +8,7 @@ export default function Businesses() {
               Our Businesses
             </h1>
             <p className="text-xl sm:text-2xl text-neutral-600 leading-relaxed">
-              A portfolio of quality businesses built for long-term value creation.
+              Currently under development 
             </p>
           </div>
         </div>

@@ -25,9 +25,6 @@ export default function Navigation() {
             <Link href="/businesses" className="text-sm text-neutral-700 hover:text-neutral-900 transition-colors">
               Our Businesses
             </Link>
-            <Link href="/investments" className="text-sm text-neutral-700 hover:text-neutral-900 transition-colors">
-              Investments
-            </Link>
             <Link href="/community" className="text-sm text-neutral-700 hover:text-neutral-900 transition-colors">
               Community
             </Link>
@@ -78,13 +75,6 @@ export default function Navigation() {
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Our Businesses
-              </Link>
-              <Link
-                href="/investments"
-                className="text-sm text-neutral-700 hover:text-neutral-900 transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Investments
               </Link>
               <Link
                 href="/community"
