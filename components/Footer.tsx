@@ -19,11 +19,8 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-medium text-neutral-900 mb-3">Company</h4>
             <div className="flex flex-col gap-2">
-              <Link href="/about" className="text-sm text-neutral-600 hover:text-neutral-900 transition-colors">
-                About Us
-              </Link>
-              <Link href="/businesses" className="text-sm text-neutral-600 hover:text-neutral-900 transition-colors">
-                Our Businesses
+              <Link href="/investments" className="text-sm text-neutral-600 hover:text-neutral-900 transition-colors">
+                Investments
               </Link>
               <Link href="/careers" className="text-sm text-neutral-600 hover:text-neutral-900 transition-colors">
                 Careers
@@ -69,19 +66,29 @@ export default function Footer() {
             </div>
             <div className="flex flex-wrap gap-4">
               <a
-                href="https://passangholdings.com/disclaimer.pdf"
+                href="/LEGAL DISCLAIMER.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs text-neutral-500 hover:text-neutral-900 transition-colors"
               >
                 Legal Disclaimer
               </a>
-              <Link href="/privacy" className="text-xs text-neutral-500 hover:text-neutral-900 transition-colors">
+              <a
+                href="/Privacy Policy.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-neutral-500 hover:text-neutral-900 transition-colors"
+              >
                 Privacy Policy
-              </Link>
-              <Link href="/terms" className="text-xs text-neutral-500 hover:text-neutral-900 transition-colors">
+              </a>
+              <a
+                href="/TERMS OF SERVICE.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-neutral-500 hover:text-neutral-900 transition-colors"
+              >
                 Terms of Service
-              </Link>
+              </a>
             </div>
           </div>
         </div>

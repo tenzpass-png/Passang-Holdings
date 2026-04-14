@@ -5,7 +5,7 @@ export default function Businesses() {
         <div className="max-w-7xl mx-auto">
           <div className="max-w-4xl">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-medium text-neutral-900 mb-8 leading-tight tracking-tight">
-              Our Businesses
+              Investments
             </h1>
             <p className="text-xl sm:text-2xl text-neutral-600 leading-relaxed">
               Currently under development 

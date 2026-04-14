@@ -5,27 +5,26 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6 sm:px-8 lg:px-12">
-        <div className="max-w-7xl mx-auto">
+      <section 
+        className="pt-32 pb-20 px-6 sm:px-8 lg:px-12 relative bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/industries.jpg)'
+        }}
+      >
+        <div className="max-w-7xl mx-auto relative z-10">
           <div className="max-w-4xl">
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-medium text-neutral-900 mb-8 leading-tight tracking-tight">
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-medium text-white mb-8 leading-tight tracking-tight">
               Building the Present. Investing in the Future.
             </h1>
-            <p className="text-xl sm:text-2xl text-neutral-600 mb-12 leading-relaxed max-w-3xl">
+            <p className="text-xl sm:text-2xl text-gray-100 mb-12 leading-relaxed max-w-3xl">
               A diversified holdings company operating across multiple industries with a focus on long-term value creation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="/businesses"
+                href="/investments"
                 className="inline-flex items-center justify-center bg-neutral-900 hover:bg-neutral-800 text-white px-6 py-3 rounded-md transition-colors text-sm font-medium"
               >
-                Our Businesses
-              </Link>
-              <Link
-                href="/about"
-                className="inline-flex items-center justify-center border border-neutral-300 hover:border-neutral-400 text-neutral-900 px-6 py-3 rounded-md transition-colors text-sm font-medium"
-              >
-                Learn More
+                Investments
               </Link>
             </div>
           </div>

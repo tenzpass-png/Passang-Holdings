@@ -19,11 +19,8 @@ export default function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-6">
-            <Link href="/about" className="text-sm text-neutral-700 hover:text-neutral-900 transition-colors">
-              About Us
-            </Link>
-            <Link href="/businesses" className="text-sm text-neutral-700 hover:text-neutral-900 transition-colors">
-              Our Businesses
+            <Link href="/investments" className="text-sm text-neutral-700 hover:text-neutral-900 transition-colors">
+              Investments
             </Link>
             <Link href="/community" className="text-sm text-neutral-700 hover:text-neutral-900 transition-colors">
               Community
@@ -63,18 +60,11 @@ export default function Navigation() {
           <div className="lg:hidden py-4 border-t border-neutral-200">
             <div className="flex flex-col gap-4">
               <Link
-                href="/about"
+                href="/investments"
                 className="text-sm text-neutral-700 hover:text-neutral-900 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                About Us
-              </Link>
-              <Link
-                href="/businesses"
-                className="text-sm text-neutral-700 hover:text-neutral-900 transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Our Businesses
+                Investments
               </Link>
               <Link
                 href="/community"
